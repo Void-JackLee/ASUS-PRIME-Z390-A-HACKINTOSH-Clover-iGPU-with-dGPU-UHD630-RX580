@@ -1,26 +1,29 @@
-# ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580
+# ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-Radeon VII
 
 
 ## Components
 - M/B: ASUS PRIME Z390-A(BIOS Ver. 1005)
-- CPU: Intel® Core™ i7-8700 Processor
+- CPU: Intel® Core™ i9-9900K Processor
 - iGPU: Intel® UHD Graphics 630
-- dGPU: SAPPHIRE NITRO AMD Radeon RX 580 4GB
+- dGPU: SAPPHIRE NITRO AMD Radeon VII 16GB
 - Lan: Intel® I219V, 1 x Gigabit LAN Controller
 - WiFi/Bluetooth: BCM94360CS2
 - Audio: Realtek® ALC S1220A 8-Channel High Definition Audio
 - Case: Fractal Design R5 Blackout
 
 
+## Using
+Copy directory ```BOOT``` and ```CLOVER``` to your EFI.
 
 ## Comments
 This Hackintosh build guide is NOT GUARANTEE 100% fully working in your conditions.
 
-This guide has been tested on MacOS Mojave 10.14.4 and 10.14.5 and prefers the use of an AMD dGPU for ease of installation. This settings are considered using dGPU(RX580) and iGPU(UHD 630 with Quicksync) simultaneously in specifically the FCPX(10.14.6) and these dual GPUs can nearly full hardware accelerated.(similar to the Headless setting but not the exact same)
+This guide has been tested on MacOS Mojave 10.14.6 and 10.15 bata 8 and prefers the use of an AMD dGPU for ease of installation. This settings are considered using dGPU(RX580) and iGPU(UHD 630 with Quicksync) simultaneously in specifically the FCPX(10.14.6) and these dual GPUs can nearly full hardware accelerated.(similar to the Headless setting but not the exact same)
 And this guide can be used on the Gigabyte M/B also. (some settings different)
 
 Special Thanks to CaseySJ(at tonymacx86.com) and Newlife(at x86.co.kr)
 
+**I forked the project from [ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580), it work on my computer, and I add support to 10.15 beta8 and later.**
 
 
 ## Procedure
@@ -137,7 +140,15 @@ Thanks.
 
 ## Screenshots
 
+10.15
+![Sys_info](./pics/Sys_info.png)
+![Sys_info_PCI](./pics/Sys_info_PCI.png)
+![Sys_info_USB](./pics/Sys_info_USB.png)
+![Sys_info_NVME](./pics/Sys_info_NVME.png)
+![Sys_info_graphics](./pics/Sys_info_graphics.png)
 
+
+10.14
 ![Sys info_PCI](https://user-images.githubusercontent.com/35429874/61994177-59df8980-b0b2-11e9-857f-47d757fa7a0f.png)
 ![Sys info_USB](https://user-images.githubusercontent.com/35429874/61994187-6c59c300-b0b2-11e9-896a-8a3ac4609117.png)
 ![Sys info_Audio](https://user-images.githubusercontent.com/35429874/61994188-711e7700-b0b2-11e9-908f-1ffd44d945a8.png)
