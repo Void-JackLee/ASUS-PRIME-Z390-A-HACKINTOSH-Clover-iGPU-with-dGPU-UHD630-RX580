@@ -5,7 +5,7 @@
 - M/B: ASUS PRIME Z390-A(BIOS Ver. 1005)
 - CPU: Intel® Core™ i9-9900K Processor
 - iGPU: Intel® UHD Graphics 630
-- dGPU: SAPPHIRE NITRO AMD Radeon VII 16GB
+- dGPU: AMD Radeon VII 16GB (Public Edition)
 - Lan: Intel® I219V, 1 x Gigabit LAN Controller
 - WiFi/Bluetooth: BCM94360CS2
 - Audio: Realtek® ALC S1220A 8-Channel High Definition Audio
@@ -23,11 +23,13 @@ And this guide can be used on the Gigabyte M/B also. (some settings different)
 
 Special Thanks to CaseySJ(at tonymacx86.com) and Newlife(at x86.co.kr)
 
-**I forked the project from [ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580), it work on my computer, and I add support to 10.15 beta8 and later.**
+**I forked the project from [ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580), it work on my computer, and I add support to 10.15.3.**
 
 
 ## Procedure
-1. Install MacOS 10.14.5 or newer(with Lilu.kext and Whatevergreen.kext )
+1. Install MacOS 10.15.3(with Lilu.kext and Whatevergreen.kext )
+
+// No need to do this. There is no solution to remove WEG with Radeon VII currently.
 2. Set the ACPI settings as below
 ```
 				<dict>
