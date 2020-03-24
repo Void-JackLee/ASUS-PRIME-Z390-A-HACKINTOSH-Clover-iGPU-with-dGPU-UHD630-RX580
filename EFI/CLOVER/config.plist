@@ -13,11 +13,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -29,13 +29,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
+					<data>SERFRg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -43,13 +39,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
+					<data>U0FUMA==</data>
 					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
+					<data>U0FUQQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -57,13 +49,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
+					<data>SEVDSQ==</data>
 					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
+					<data>SU1FSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -71,13 +59,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					TUVJXw==
-					</data>
+					<data>TUVJXw==</data>
 					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
+					<data>SU1FSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -85,13 +69,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -99,13 +79,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					UEVHUA==
-					</data>
+					<data>UEVHUA==</data>
 					<key>Replace</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -113,13 +89,9 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
+					<data>RUhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -127,13 +99,9 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
+					<data>RUhDMg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -141,13 +109,9 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
+					<data>WEhDSQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -155,13 +119,29 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>
-					WEhDMQ==
-					</data>
+					<data>WEhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>ACPI Patch</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>oAqTU1RBUwE=</data>
+					<key>Replace</key>
+					<data>oAqRCv8L//8=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUMwXw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -202,11 +182,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 darkwake=0 debug=0x100 dart=0 keepsyms=1 shikigva=128</string>
+		<string>slide=0 shikigva=128</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>Macintosh HD</string>
+		<string>Hackintosh HD</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
@@ -244,7 +224,7 @@
 			<key>IMEI</key>
 			<string>0x0</string>
 			<key>IntelGFX</key>
-			<string>0x3E928086</string>
+			<string>0x3E988086</string>
 			<key>LAN</key>
 			<string>0x0</string>
 			<key>NVidia</key>
@@ -265,7 +245,7 @@
 				<key>device_type</key>
 				<string>Display Controller</string>
 				<key>model</key>
-				<string>AMD Radeon RX 580</string>
+				<string>AMD Radeon VII</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
@@ -312,9 +292,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
 				<key>layout-id</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>model</key>
 				<string>Realtek ALC S1220A</string>
 			</dict>
@@ -330,153 +308,81 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCRPg==
-				</data>
+				<data>AwCRPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
-				<data>
-				kT4AAA==
-				</data>
+				<data>kT4AAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>framebuffer-camellia</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con0-busid</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-flags</key>
-				<data>
-				IAAAAA==
-				</data>
+				<data>IAAAAA==</data>
 				<key>framebuffer-con0-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-con0-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con0-type</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-busid</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-flags</key>
-				<data>
-				IAAAAA==
-				</data>
+				<data>IAAAAA==</data>
 				<key>framebuffer-con1-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-con1-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-busid</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-flags</key>
-				<data>
-				IAAAAA==
-				</data>
+				<data>IAAAAA==</data>
 				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-con2-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con3-busid</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con3-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con3-flags</key>
-				<data>
-				IAAAAA==
-				</data>
+				<data>IAAAAA==</data>
 				<key>framebuffer-con3-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-con3-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con3-type</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
+				<data>AACQAA==</data>
 				<key>framebuffer-flags</key>
-				<data>
-				ABAAAA==
-				</data>
+				<data>ABAAAA==</data>
 				<key>framebuffer-memorycount</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-mobile</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-pipecount</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-portcount</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
 			</dict>
@@ -526,7 +432,7 @@
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
+			<true/>
 			<key>Intel</key>
 			<true/>
 			<key>NVidia</key>
@@ -535,7 +441,7 @@
 		<key>NvidiaSingle</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x3E920003</string>
+		<string>0x3E980003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -561,17 +467,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
+				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
+				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -579,17 +481,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -597,17 +495,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				Ym9hcmQtaWQ=
-				</data>
+				<data>Ym9hcmQtaWQ=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleGraphicsDevicePolicy</string>
 				<key>Replace</key>
-				<data>
-				Ym9hcmQtaXg=
-				</data>
+				<data>Ym9hcmQtaXg=</data>
 			</dict>
 		</array>
 	</dict>
@@ -633,7 +527,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02950303J9LNV9CB</string>
+		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -663,9 +557,9 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02ZT0EYJV3Q</string>
+		<string></string>
 		<key>SmUUID</key>
-		<string>511C360D-EB87-4B67-B268-31C003055863</string>
+		<string></string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
