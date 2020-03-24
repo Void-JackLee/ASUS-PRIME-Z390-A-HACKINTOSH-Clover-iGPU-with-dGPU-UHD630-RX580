@@ -148,8 +148,14 @@ Thanks.
 ![Sys_info_PCI](./pics/Sys_info_PCI.png)
 ![Sys_info_USB](./pics/Sys_info_USB.png)
 ![Sys_info_NVME](./pics/Sys_info_NVME.png)
+
+Not perfect (has some bug with HDMI audio and some animation failure) graphic information.
+
 ![Sys_info_graphics](./pics/Sys_info_graphics.png)
 
+Perfect grafic information.
+
+![Sys_info_graphics_ok](./pics/Sys_info_graphic_ok.png)
 
 10.14
 ![Sys info_PCI](https://user-images.githubusercontent.com/35429874/61994177-59df8980-b0b2-11e9-857f-47d757fa7a0f.png)
