@@ -30,6 +30,7 @@ Special Thanks to CaseySJ(at tonymacx86.com) and Newlife(at x86.co.kr)
 1. Install MacOS 10.15.3(with Lilu.kext and Whatevergreen.kext )
 
 // No need to do this. There is no solution to remove WEG with Radeon VII currently.
+
 2. Set the ACPI settings as below
 ```
 				<dict>
